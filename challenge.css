@@ -55,8 +55,62 @@
     font-size:64px;
   }
 
+
+
   .mv-text{
     padding:10px;
     font-size:20px;
+  }
+
+  .production{
+    width: 300px;
+    height: 250px;
+    background-size:cover;
+    background-position: center;
+    /*margin: 10px 10px 0 0;*/
+  }
+
+  .production-group{
+    display: flex;
+    flex-wrap:wrap;
+    margin:0 auto;
+    width: 920px;
+  }
+
+  .heading{
+    text-align:center;
+    font-size:32px;
+  }
+
+  .heading::after {
+    content: "";
+    display: block;
+    width:70px;
+    height: 3px;
+    margin:8px auto 0 auto;
+    background-color: #EC715F;
+  }
+
+  .heading-text{
+    text-align: center;
+  }
+
+  .bg-1 {
+    background-image:url(img/sketch.jpg);
+  }
+  .bg-2{
+    background-image:url(img/websuku.png);
+  }
+  .bg-3{
+    background-image:url(img/write.jpg);
+  }
+  .bg-4{
+    background-image:url(img/webcamp.png);
+  }
+  .bg-5{
+    background-image:url(img/sketch.jpg);
+  }
+  .bg-6{
+    background-image:url(img/sketch.jpg);
   }
 
