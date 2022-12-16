@@ -64,6 +64,7 @@
   .heading{
     text-align:center;
     font-size:32px;
+    margin-top:90px;
   }
 
   .heading::after {
@@ -77,6 +78,8 @@
 
   .heading-text{
     text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
   }
 
   .production-group{
@@ -90,10 +93,15 @@
       height: 250px;
       background-size:cover;
       background-position: center;
+      margin-top: 10px;
+      margin-right: 10px;
     }
-
-
-
+  .production:nth-child(-n+3) {
+    margin-top:0;
+  }
+  .production:nth-child(3n) {
+    margin-right:0;
+  }
 
   .bg-1{
     background-image:url(img/sketch.jpg);
@@ -114,3 +122,27 @@
     background-image:url(img/webcamp-mother.png);
   }
 
+  .strength-group{
+    display:flex;
+    width: 980px;
+    margin: 0 auto;
+  }
+
+
+  .strength{
+    width:320px;
+    margin-right:10px;
+    margin-bottom: 90px;
+    text-align: center;
+  }
+  .strength:nth-child(3n){
+    margin-right:0;
+  }
+
+  .strength i{
+    font-size: 60px;
+  }
+
+  .strength-text{
+    text-align: left;
+  }
