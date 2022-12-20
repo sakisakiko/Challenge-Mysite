@@ -64,7 +64,7 @@
   .heading{
     text-align:center;
     font-size:32px;
-    margin-top:90px;
+    padding-top:90px;
   }
 
   .heading::after {
@@ -122,6 +122,12 @@
     background-image:url(img/webcamp-mother.png);
   }
 
+  #Portfolio{
+  background-color: #ECEFF1;
+  padding-bottom: 90px ;
+  }
+
+
   .strength-group{
     display:flex;
     width: 980px;
@@ -145,4 +151,75 @@
 
   .strength-text{
     text-align: left;
+  }
+   #Profile{
+    background-color: #ECEFF1;
+    padding-bottom: 90px;
+  }
+  .profile-group {
+    display:flex;
+  }
+  .profile-right-contents {
+    width: 50%;
+  }
+  .profile-left-contents {
+    width: 50%;
+  }
+
+  .profile-icon {
+    width: 250px;
+    height: 250px;
+    margin:0 auto;
+    border-radius: 50%;
+    background-image:url(img/my-icon.jpg);
+  }
+
+  #Contact{
+   padding-bottom: 90px;
+  }
+  .contact-group {
+    display:flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .left-contents{
+    width: 400px;
+  }
+  .contact-left-contents {
+     width: 130px;
+     margin: 0 auto;
+  }
+
+  .right-contents{
+   width: 400px;
+  }
+  .contact-right-contents {
+    width: 180px;
+    margin:0 auto;
+  }
+
+  .contact-right-contents i {
+    font-size:50px;
+    margin-right: 20px;
+  }
+
+  .contact-right-contents i:last-child {
+    margin: 0 ;
+  }
+
+  .description-title{
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  footer{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  }
+
+  .footer-text{
+    color: white;
+    text-align: center;
+    line-height: 60px;
   }
