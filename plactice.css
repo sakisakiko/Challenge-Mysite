@@ -56,12 +56,12 @@ header{
 
 #portfolio{
   background-color:#ECEFF1;
+  padding: 90px 0;
 
 }
 
 .header_title{
  text-align: center;
- padding-top: 90px;
 }
 .header_title::after{
   content: "";
@@ -74,13 +74,12 @@ header{
 .header_text{
   text-align: center;
   padding-top: 30px;
+  padding-bottom:30px;
 }
 
 .portfolio_image_group{
   width: 920px;
   margin:0 auto;
-  padding-top: 30px;
-  padding-bottom :30px;
   display: flex;
   flex-wrap:wrap;
 }
@@ -92,6 +91,21 @@ header{
   background-position: center;
   margin:0 auto;
 }
+
+.portfolio_image{
+  margin: 10px 10px 0 0 ;
+}
+
+/*４番目以降のmargin-topを０にする*/
+.portfolio_image:nth-child(-n+3){
+  margin-top: 0;
+}
+
+/*３の倍数（ここでは３番目と６番目）のmargin-rightを０にするにする*/
+.portfolio_image:nth-child(3n){
+  margin-right :0;
+}
+
 .No_1{
   background-image: url(img/sketch.jpg);
 
@@ -111,4 +125,68 @@ header{
 .No_6{
  background-image: url(img/webcamp-mother.png);
 }
+
+#feature{
+  padding: 90px 0 ;
+}
+
+.strength_grpoup{
+  width: 980px;
+  margin: 0 auto;
+}
+.strength{
+  width: 320px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/*３番目のstrengthのmaegin-rightのみ０*/
+.strength:nth-child(3n){
+  margin-right: 0;
+}
+
+
+.fa{
+  font-size: 60px;
+}
+
+.strength_title{
+  font-size: 20px;
+  color: #000;
+  padding: 10px 0;
+}
+
+.strength_text{
+  text-align:left;
+}
+
+#profile{
+  background-color: #ECEFF1;
+  padding: 90px 0;
+}
+.profile_group{
+  display: flex;
+  padding-top: 30px;
+}
+.left_content{
+  width: 512px;
+}
+.profile_icon{
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+}
+.right_content{
+  width: 512px;
+}
+.profile_title{
+  padding-bottom: 5px;
+}
+.profile_text{
+  padding-bottom: 30px;
+}
+
+
 
