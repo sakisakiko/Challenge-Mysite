@@ -188,5 +188,56 @@ header{
   padding-bottom: 30px;
 }
 
+#contact{
+  padding: 90px 0;
+}
+.contact-group{
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+}
+.left_content{
+  width: 400px;
+}
+
+.left_content_contact{
+  width: 130px;
+  margin: 0 auto;
+}
+
+
+.right_content{
+  width: 400px;
+}
+
+.right_content_contact{
+  width: 190px;
+  margin: 0 auto;
+
+}
+
+.right_content .fa{
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right_content .fa:last-child{
+  margin-right: 0;
+}
+
+.contact_title{
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.contact_title:first-child{
+  margin-top: 0;
+}
+
+
+
+
+
+
 
 
