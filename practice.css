@@ -250,6 +250,16 @@ footer{
     height: 50px;
   }
 
+  .header_title{
+    width:90%;
+    margin:0 auto;
+  }
+
+  .header_text{
+    width:90%;
+    margin:0 auto;
+  }
+
   .container{
     width: 90% ;
   }
@@ -286,13 +296,129 @@ footer{
   }
 
 
+  .mv_title{
+    font-size: 40px;
+  }
+  .mv_text{
+    font-size: 18px;
+  }
+
+  .portfolio_image_group{
+    width: 90%;
+    margin:0 auto;
+    display: block;
+  }
+
+  .portfolio_image{
+    margin: 0 auto 10px;
+  }
+
+  /*４番目以降のmargin-topを０にする*/
+  .portfolio_image:nth-child(3n){
+    margin: 0 auto;
+  }
 
 
+  .No_1{
+    background-image: url(img/websuku.png);
+  }
+  .No_2{
+    background-image: url(img/webcamp.png);
+  }
+  .No_3{
+    background-image: url(img/webcamp-mother.png);
+  }
 
+  .No_4{
+    display: none;
+  }
+  .No_5{
+    display: none;
+  }
+  .No_6{
+    display: none;
+  }
 
+  .strength_grpoup{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .strength{
+    width: 320px;
+    display: block;
+    margin: 0 auto 10px;
+  }
 
+  .strength:nth-child(3n){
+    margin: 0 auto;
+  }
 
+  .strength_title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
+  .strength_text{
+    text-align:left;
+  }
+
+  .profile_group{
+    display: block;
+  }
+
+  .left_content{
+    width: 90%;
+    margin:0 auto;
+  }
+
+  .profile_icon{
+    margin:0 auto;
+  }
+
+  .right_content{
+    width: 90%;
+    margin:0 auto;
+  }
+
+  .profile_title{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin:0 auto;
+  }
+
+  .profile_text{
+    text-align:center;
+  }
+
+  .contact-group{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contact_title{
+    margin: 0 0 5px 0;
+    text-align: center;
+  }
+
+  .contact_text{
+    text-align: center;
+    padding-bottom:20px;
+  }
+
+  .right_content .fa{
+  margin-right: 8px;
+  }
+
+  .right_content .fa:last-child{
+    margin-right: 0;
+  }
+
+  .right_content_contact {
+    width: 100%;
+    text-align: center;
+  }
 
 }
 
